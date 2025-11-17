@@ -6,6 +6,7 @@ import LayoutDisaster from './components/LayoutDisaster';
 import TextCorruption from './components/TextCorruption';
 import UselessInteractions from './components/UselessInteractions';
 import AbsoluteNonsense from './components/AbsoluteNonsense';
+import ChaosEngine from './components/ChaosEngine';
 import ErrorPopups from './components/ErrorPopups';
 import GlitchEffects from './components/GlitchEffects';
 import BrokenFooter from './components/BrokenFooter';
@@ -42,6 +43,7 @@ function App() {
       <TextCorruption />
       <UselessInteractions />
       <AbsoluteNonsense />
+      <ChaosEngine />
       <GlitchEffects />
       <BrokenFooter />
       <ErrorPopups />
