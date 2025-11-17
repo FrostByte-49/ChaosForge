@@ -3,6 +3,7 @@ import BrokenNav from './components/BrokenNav';
 import ChaoticHero from './components/ChaoticHero';
 import TypographyCrime from './components/TypographyCrime';
 import LayoutDisaster from './components/LayoutDisaster';
+import TextCorruption from './components/TextCorruption';
 import UselessInteractions from './components/UselessInteractions';
 import ErrorPopups from './components/ErrorPopups';
 import GlitchEffects from './components/GlitchEffects';
@@ -37,6 +38,7 @@ function App() {
       <ChaoticHero />
       <TypographyCrime />
       <LayoutDisaster />
+      <TextCorruption />
       <UselessInteractions />
       <GlitchEffects />
       <BrokenFooter />
