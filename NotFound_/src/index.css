@@ -1,0 +1,201 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  @keyframes wiggle {
+    0%, 100% { transform: rotate(-3deg); }
+    50% { transform: rotate(3deg); }
+  }
+
+  @keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    10%, 30%, 50%, 70%, 90% { transform: translateX(-10px); }
+    20%, 40%, 60%, 80% { transform: translateX(10px); }
+  }
+
+  @keyframes glitch {
+    0% { transform: translate(0); }
+    20% { transform: translate(-2px, 2px); }
+    40% { transform: translate(-2px, -2px); }
+    60% { transform: translate(2px, 2px); }
+    80% { transform: translate(2px, -2px); }
+    100% { transform: translate(0); }
+  }
+
+  @keyframes glitch-fast {
+    0%, 100% {
+      transform: translate(0);
+      text-shadow: 2px 2px 0 #ff00ff, -2px -2px 0 #00ffff;
+    }
+    25% {
+      transform: translate(-5px, 5px);
+      text-shadow: -2px 2px 0 #ff00ff, 2px -2px 0 #00ffff;
+    }
+    50% {
+      transform: translate(5px, -5px);
+      text-shadow: 2px -2px 0 #ff00ff, -2px 2px 0 #00ffff;
+    }
+    75% {
+      transform: translate(-5px, -5px);
+      text-shadow: -2px -2px 0 #ff00ff, 2px 2px 0 #00ffff;
+    }
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px) rotate(0deg); }
+    50% { transform: translateY(-100px) rotate(180deg); }
+  }
+
+  @keyframes tilt {
+    0%, 100% { transform: rotate(-5deg); }
+    50% { transform: rotate(5deg); }
+  }
+
+  @keyframes bounce-slow {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+  }
+
+  @keyframes spin-slow {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+
+  @keyframes swing {
+    0% { transform: scaleY(0); }
+    100% { transform: scaleY(1); }
+  }
+
+  @keyframes vibrate {
+    0%, 100% { transform: translate(0, 0) rotate(0deg); }
+    25% { transform: translate(5px, 5px) rotate(5deg); }
+    50% { transform: translate(0, 0) rotate(0eg); }
+    75% { transform: translate(-5px, 5px) rotate(-5deg); }
+  }
+
+  @keyframes flash {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+
+  @keyframes flash-once {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 1; }
+  }
+
+  @keyframes slide-in-right {
+    from {
+      transform: translateX(400px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes flicker {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+  }
+
+  @keyframes glitch-image {
+    0%, 100% {
+      filter: none;
+      transform: translate(0);
+    }
+    25% {
+      filter: hue-rotate(90deg) saturate(3);
+      transform: translate(-10px, 0);
+    }
+    50% {
+      filter: hue-rotate(180deg) saturate(5);
+      transform: translate(10px, 0);
+    }
+    75% {
+      filter: hue-rotate(270deg) saturate(3);
+      transform: translate(0, -10px);
+    }
+  }
+
+  @keyframes fade-out {
+    from { opacity: 1; transform: scale(1); }
+    to { opacity: 0; transform: scale(0); }
+  }
+
+  .animate-wiggle {
+    animation: wiggle 1s ease-in-out infinite;
+  }
+
+  .animate-shake {
+    animation: shake 0.5s ease-in-out infinite;
+  }
+
+  .animate-glitch {
+    animation: glitch 0.3s ease-in-out infinite;
+  }
+
+  .animate-glitch-fast {
+    animation: glitch-fast 0.5s ease-in-out infinite;
+  }
+
+  .animate-float {
+    animation: float linear infinite;
+  }
+
+  .animate-tilt {
+    animation: tilt 2s ease-in-out infinite;
+  }
+
+  .animate-bounce-slow {
+    animation: bounce-slow 2s ease-in-out infinite;
+  }
+
+  .animate-spin-slow {
+    animation: spin-slow 3s linear infinite;
+  }
+
+  .animate-swing {
+    animation: swing 0.3s ease-out;
+  }
+
+  .animate-vibrate {
+    animation: vibrate 0.1s ease-in-out infinite;
+  }
+
+  .animate-flash {
+    animation: flash 0.2s ease-in-out infinite;
+  }
+
+  .animate-flash-once {
+    animation: flash-once 0.5s ease-in-out;
+  }
+
+  .animate-slide-in-right {
+    animation: slide-in-right 0.3s ease-out;
+  }
+
+  .animate-flicker {
+    animation: flicker 2s ease-in-out infinite;
+  }
+
+  .animate-glitch-image {
+    animation: glitch-image 2s ease-in-out infinite;
+  }
+
+  .animate-fade-out {
+    animation: fade-out 1s ease-out forwards;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor: crosshair;
+}
