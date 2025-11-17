@@ -16,6 +16,7 @@ import GlitchEffects from './components/GlitchEffects';
 import BrokenFooter from './components/BrokenFooter';
 import CursorEffect from './components/CursorEffect';
 import BlueScreenOfChaos from './components/BlueScreenOfChaos';
+import FracturedReality from './components/FracturedReality';
 
 function App() {
   const [clickCount, setClickCount] = useState(0);
@@ -40,6 +41,7 @@ function App() {
   return (
     <div className="relative overflow-x-hidden">
       <CursorEffect />
+      <FracturedReality />
       <BrokenNav />
       <ChaoticHero />
       <TypographyCrime />
