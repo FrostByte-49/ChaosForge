@@ -7,6 +7,8 @@ import TextCorruption from './components/TextCorruption';
 import UselessInteractions from './components/UselessInteractions';
 import AbsoluteNonsense from './components/AbsoluteNonsense';
 import ChaosEngine from './components/ChaosEngine';
+import InteractiveHell from './components/InteractiveHell';
+import Spiraling from './components/Spiraling';
 import ErrorPopups from './components/ErrorPopups';
 import GlitchEffects from './components/GlitchEffects';
 import BrokenFooter from './components/BrokenFooter';
@@ -44,6 +46,8 @@ function App() {
       <UselessInteractions />
       <AbsoluteNonsense />
       <ChaosEngine />
+      <InteractiveHell />
+      <Spiraling />
       <GlitchEffects />
       <BrokenFooter />
       <ErrorPopups />
