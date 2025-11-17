@@ -5,6 +5,7 @@ import TypographyCrime from './components/TypographyCrime';
 import LayoutDisaster from './components/LayoutDisaster';
 import TextCorruption from './components/TextCorruption';
 import UselessInteractions from './components/UselessInteractions';
+import AbsoluteNonsense from './components/AbsoluteNonsense';
 import ErrorPopups from './components/ErrorPopups';
 import GlitchEffects from './components/GlitchEffects';
 import BrokenFooter from './components/BrokenFooter';
@@ -40,6 +41,7 @@ function App() {
       <LayoutDisaster />
       <TextCorruption />
       <UselessInteractions />
+      <AbsoluteNonsense />
       <GlitchEffects />
       <BrokenFooter />
       <ErrorPopups />
