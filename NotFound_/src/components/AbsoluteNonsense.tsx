@@ -2,12 +2,12 @@ import { useState, useEffect } from 'react';
 
 export default function AbsoluteNonsense() {
   const [rotation, setRotation] = useState(0);
-  const [fontSize, setFontSize] = useState(40);
+  const [, setFontSize] = useState(40);
 
   useEffect(() => {
     const interval = setInterval(() => {
       setRotation((prev) => (prev + 5) % 360);
-      setFontSize((prev) => {
+      setFontSize(() => {
         const sizes = [20, 40, 60, 100, 15, 80, 30];
         return sizes[Math.floor(Math.random() * sizes.length)];
       });

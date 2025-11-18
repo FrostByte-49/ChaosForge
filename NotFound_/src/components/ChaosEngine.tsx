@@ -34,7 +34,7 @@ export default function ChaosEngine() {
           TOTAL CHAOS ENGINE
         </h2>
 
-        <p className="text-2xl font-bold text-black/80 mb-12 animate-wiggle">
+        <p className="text-2xl font-bold text-black/80 mb-12 animate-wiggle capitalize">
           Random elements spawning at random positions doing random things (I have no idea)
         </p>
 

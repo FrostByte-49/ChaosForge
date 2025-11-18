@@ -23,7 +23,7 @@ export default function BuggyMatrix() {
   }, []);
 
   return (
-    <section className="py-12 px-4 bg-black relative overflow-hidden">
+    <section className="py-20 px-4 bg-black relative overflow-hidden">
       <div className="max-w-6xl mx-auto">
         <div className="bg-gradient-to-b from-green-500 to-black p-8 border-4 border-green-500 font-mono text-green-500 text-xl leading-tight">
           {matrix.map((row, rowIdx) => (

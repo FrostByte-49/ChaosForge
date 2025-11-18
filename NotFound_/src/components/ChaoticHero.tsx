@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { AlertTriangle } from 'lucide-react';
 
 export default function ChaoticHero() {
-  const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
+  const [_mousePos, setMousePos] = useState({ x: 0, y: 0 });
   const [titlePos, setTitlePos] = useState({ x: 0, y: 0 });
   const [buttonPos, setButtonPos] = useState({ x: 0, y: 0 });
   const [bgColor, setBgColor] = useState('from-red-500 to-blue-500');
@@ -32,7 +32,7 @@ export default function ChaoticHero() {
     setTitlePos({ x: titleX, y: titleY });
   };
 
-  const handleButtonHover = (e: React.MouseEvent) => {
+  const handleButtonHover = (_e: React.MouseEvent) => {
     const randomX = Math.random() * 300 - 150;
     const randomY = Math.random() * 300 - 150;
     setButtonPos({ x: randomX, y: randomY });
@@ -83,7 +83,7 @@ export default function ChaoticHero() {
             </h2>
             <AlertTriangle className="w-12 h-12 text-yellow-300 animate-bounce" />
           </div>
-          <p className="text-2xl text-white/90 italic animate-pulse">
+          <p className="text-2xl text-white/90 italic animate-pulse capitalize">
             Where creativity dies and chaos wins.
           </p>
         </div>
