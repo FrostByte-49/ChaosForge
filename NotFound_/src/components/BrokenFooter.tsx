@@ -48,13 +48,13 @@ export default function BrokenFooter() {
 
         <div className="mt-16 text-center space-y-4">
           <p className="text-white text-xl font-bold">
-            © 3025 Chaos Industries Inc.
-            <span className="text-xs ml-2">(We're from the future)</span>
+            © 3025 Chaos Creator Inc.
+            <span className="text-xs ml-2 capitalize">(We're from the future)</span>
           </p>
-          <p className="text-yellow-300 text-lg italic animate-pulse">
-            Made with 💔 and zero design principles
+          <p className="text-yellow-300 text-lg italic animate-pulse capitalize">
+            Made with 💔 & zero design principles
           </p>
-          <p className="text-2xl font-black text-white transform -rotate-3 inline-block animate-wiggle">
+          <p className="text-3xl pt-12 font-black text-white transform -rotate-3 inline-block animate-wiggle capitalize">
             If this website hurt your eyes, mission accomplished.
           </p>
         </div>
