@@ -38,9 +38,12 @@ export default function TypographyCrime() {
             <p className="text-sm inline-block ml-2 opacity-50">help</p>
           </div>
 
-          <marquee className="text-3xl font-bold text-white bg-black py-4 transform -rotate-2">
-            ⚠️ SCROLLING TEXT IS BACK BABY ⚠️ EMBRACE THE CHAOS ⚠️ CSS IS CRYING ⚠️
-          </marquee>
+          {/* Fixed marquee with CSS animation */}
+          <div className="overflow-hidden bg-black py-4 transform -rotate-2">
+            <div className="animate-marquee whitespace-nowrap text-3xl font-bold text-white">
+              ⚠️ SCROLLING TEXT IS BACK BABY ⚠️ EMBRACE THE CHAOS ⚠️ CSS IS CRYING ⚠️
+            </div>
+          </div>
 
           <div className="relative">
             <p className="text-6xl font-black text-red-600 absolute top-0 left-1/2 -translate-x-1/2 animate-bounce">
@@ -63,6 +66,7 @@ export default function TypographyCrime() {
           </p>
         </div>
       </div>
+      
     </section>
   );
 }
