@@ -14,6 +14,9 @@ export default function GlitchEffects() {
 
   return (
     <section className="py-20 px-4 bg-black relative overflow-hidden">
+
+      <div className="absolute top-0 left-0 w-full h-2 bg-white" />
+
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0 bg-gradient-to-r from-red-500 via-green-500 to-blue-500 animate-pulse" />
       </div>

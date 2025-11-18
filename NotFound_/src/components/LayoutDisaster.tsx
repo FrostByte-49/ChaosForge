@@ -11,6 +11,8 @@ export default function LayoutDisaster() {
   return (
     <section className="py-20 px-4 bg-gray-900 relative overflow-hidden">
 
+      <div className="absolute top-0 left-0 w-full h-2 bg-white" />
+
       <div className="container mx-auto">
         <h2 className="text-6xl font-black text-white text-center mt-8 mb-16 animate-glitch">
           LAYOUT DISASTER ZONE ⚠️

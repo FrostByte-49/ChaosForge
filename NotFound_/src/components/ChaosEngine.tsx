@@ -27,6 +27,9 @@ export default function ChaosEngine() {
 
   return (
     <section className="py-24 px-4 bg-gradient-to-br from-yellow-300 via-orange-400 to-red-500 relative min-h-screen overflow-hidden">
+
+      <div className="absolute top-0 left-0 w-full h-2 bg-white" />
+      
       <div className="absolute inset-0 bg-[repeating-linear-gradient(45deg,rgba(0,0,0,.05),rgba(0,0,0,.05)_10px,transparent_10px,transparent_20px)] pointer-events-none" />
 
       <div className="relative z-10 container mx-auto text-center">

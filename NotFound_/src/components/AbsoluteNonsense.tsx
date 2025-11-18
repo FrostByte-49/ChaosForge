@@ -28,6 +28,9 @@ export default function AbsoluteNonsense() {
 
   return (
     <section className="py-24 px-4 bg-gradient-to-b from-gray-900 to-black relative overflow-hidden">
+
+      <div className="absolute top-0 left-0 w-full h-2 bg-white" />
+      
       <div className="absolute inset-0 opacity-5">
         {[...Array(50)].map((_, i) => (
           <div

@@ -20,6 +20,9 @@ export default function DeathByAesthetic() {
 
   return (
     <section className="py-24 px-4 bg-gradient-to-br from-black via-gray-900 to-black relative overflow-hidden">
+
+      <div className="absolute top-0 left-0 w-full h-2 bg-white" />
+      
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-7xl font-black text-white text-center mb-12 animate-wiggle drop-shadow-2xl">
           DEATH BY AESTHETIC

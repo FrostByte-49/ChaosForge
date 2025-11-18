@@ -571,6 +571,9 @@ export default function Spiraling() {
 
   return (
     <section className="py-24 px-4 bg-gradient-to-br from-purple-900 via-black to-cyan-900 relative min-h-screen overflow-hidden">
+
+      <div className="absolute top-0 left-0 w-full h-2 bg-white" />
+      
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 to-purple-500 animate-pulse" />
       </div>

@@ -44,6 +44,9 @@ export default function InteractiveHell() {
         perspective: '1000px',
       }}
     >
+
+      <div className="absolute top-0 left-0 w-full h-2 bg-white" />
+      
       <div className="relative z-10 container mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-7xl font-black text-white drop-shadow-2xl animate-shake mb-4">

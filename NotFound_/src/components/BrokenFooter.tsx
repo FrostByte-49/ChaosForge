@@ -1,6 +1,9 @@
 export default function BrokenFooter() {
   return (
     <footer className="bg-gradient-to-r from-pink-600 via-purple-600 to-blue-600 py-20 px-4 relative overflow-hidden">
+
+      <div className="absolute top-0 left-0 w-full h-2 bg-white" />
+      
       <div className="absolute inset-0 opacity-20">
         <div className="absolute inset-0 bg-[repeating-linear-gradient(90deg,transparent,transparent_50px,rgba(255,255,255,.1)_50px,rgba(255,255,255,.1)_100px)]" />
       </div>

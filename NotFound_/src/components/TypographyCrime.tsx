@@ -1,6 +1,7 @@
 export default function TypographyCrime() {
   return (
     <section className="py-20 px-4 bg-gradient-to-r from-lime-300 via-orange-400 to-pink-500 relative overflow-hidden">
+      <div className="absolute top-0 left-0 w-full h-2 bg-white" />
       <div className="absolute inset-0 animate-pulse opacity-20">
         <div className="absolute top-0 left-0 w-full h-full bg-[repeating-linear-gradient(45deg,transparent,transparent_10px,rgba(0,0,0,.1)_10px,rgba(0,0,0,.1)_20px)]" />
       </div>
