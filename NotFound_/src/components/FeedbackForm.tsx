@@ -125,10 +125,10 @@ export default function FeedbackFromHell() {
             <h3 className="text-6xl font-black text-green-400 mb-4 animate-pulse">
               FEEDBACK SUBMITTED! 🎉
             </h3>
-            <p className="text-2xl text-white mb-4">
+            <p className="text-2xl text-white mb-4 capitalize">
               Your screams have been recorded! 🔥
             </p>
-            <p className="text-lg text-gray-400 animate-pulse">
+            <p className="text-lg text-gray-400 animate-pulse capitalize">
               We'll probably ignore it! 🤡
             </p>
             <div className="mt-8 text-4xl animate-spin">🌀</div>
@@ -182,7 +182,7 @@ export default function FeedbackFromHell() {
 
             {/* Rating */}
             <div>
-              <label className="block text-2xl font-black text-pink-400 mb-4 animate-pulse">
+              <label className="block text-2xl font-black text-pink-400 mb-12 animate-pulse">
                 🌡️ HOW MUCH DID THIS HURT?
               </label>
               <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
@@ -239,15 +239,15 @@ export default function FeedbackFromHell() {
               <div className="space-y-4">
                 <div className="flex items-center space-x-4">
                   <input type="checkbox" className="w-6 h-6 transform scale-150" required />
-                  <span className="text-white text-lg">I am not a robot 🤖</span>
+                  <span className="text-white text-lg capitalize">I am not a robot 🤖</span>
                 </div>
                 <div className="flex items-center space-x-4">
                   <input type="checkbox" className="w-6 h-6 transform scale-150" />
-                  <span className="text-white text-lg">I am a friendly ghost 👻</span>
+                  <span className="text-white text-lg capitalize">I am a friendly ghost 👻</span>
                 </div>
                 <div className="flex items-center space-x-4">
                   <input type="checkbox" className="w-6 h-6 transform scale-150" />
-                  <span className="text-white text-lg">I enjoy pain 💀</span>
+                  <span className="text-white text-lg capitalize">I enjoy pain 💀</span>
                 </div>
               </div>
             </div>
@@ -271,8 +271,8 @@ export default function FeedbackFromHell() {
             </button>
 
             {/* Disclaimer */}
-            <p className="text-center text-gray-400 text-sm animate-pulse">
-              ⚠️ By submitting, you agree to lose all sanity and possibly your soul. No refunds. ⚠️
+            <p className="text-center text-gray-400 text-sm animate-pulse capitalize">
+              ⚠️ By submitting, you agree to lose all sanity & possibly your soul. No refunds. ⚠️
             </p>
           </form>
         )}
