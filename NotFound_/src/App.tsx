@@ -13,6 +13,7 @@ import DeathByAesthetic from './components/DeathByAesthetic';
 import BuggyMatrix from './components/BuggyMatrix';
 import ErrorPopups from './components/ErrorPopups';
 import GlitchEffects from './components/GlitchEffects';
+import FeedbackForm from './components/FeedbackForm';
 import BrokenFooter from './components/BrokenFooter';
 import CursorEffect from './components/CursorEffect';
 import BlueScreenOfChaos from './components/BlueScreenOfChaos';
@@ -55,6 +56,7 @@ function App() {
       <DeathByAesthetic />
       <BuggyMatrix />
       <GlitchEffects />
+      <FeedbackForm />
       <BrokenFooter />
       <ErrorPopups />
 
