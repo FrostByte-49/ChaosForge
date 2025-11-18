@@ -60,8 +60,8 @@ export default function DeathByAesthetic() {
           ))}
         </div>
 
-        <div className="mt-12 text-center">
-          <p className="text-3xl font-black text-white animate-pulse drop-shadow-lg">
+        <div className="mt-24 text-center">
+          <p className="text-3xl font-black text-white animate-pulse drop-shadow-lg capitalize">
             Colors change every 500ms because STABILITY IS BORING
           </p>
         </div>

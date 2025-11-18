@@ -33,7 +33,7 @@ export default function TextCorruption() {
       <p className="text-6xl font-black text-red-500 animate-glitch-fast drop-shadow-lg font-mono tracking-wider">
         {corrupted}
       </p>
-      <p className="text-white/50 mt-4 text-sm italic animate-flicker">
+      <p className="text-white/50 mt-4 text-sm italic animate-flicker capitalize">
         (The corruption is intentional. Please stop fixing it.)
       </p>
     </div>

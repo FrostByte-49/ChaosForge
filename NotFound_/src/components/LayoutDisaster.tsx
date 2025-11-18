@@ -58,7 +58,7 @@ export default function LayoutDisaster() {
           ))}
         </div>
 
-        {/* Auto-scrolling marquee - contained within this section */}
+        {/* Marquee Animation */}
         <div className="marquee-container overflow-hidden bg-blue-600 h-14 p-2 mt-[-10rem] mb-16 rounded-lg rotate-12">
           <div className="marquee animate-marquee whitespace-nowrap">
             <span className="text-white text-3xl font-bold mx-4">• YOU'VE ENTERED THE CHAOS ZONE •</span>

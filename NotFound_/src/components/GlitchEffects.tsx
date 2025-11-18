@@ -5,11 +5,11 @@ export default function GlitchEffects() {
 
   const effects = [
     { name: 'SHAKE', effect: 'hover:animate-shake' },
-    { name: 'BLUR', effect: 'hover:blur-md' },
+    { name: 'BLUR', effect: 'hover:blur-4xl' },
     { name: 'ZOOM', effect: 'hover:scale-150' },
-    { name: 'INVERT', effect: 'hover:invert' },
-    { name: 'SPIN', effect: 'hover:animate-spin' },
-    { name: 'GLITCH', effect: 'hover:animate-glitch' },
+    { name: 'INVERT', effect: 'hover:animate-swing' },
+    { name: 'SPIN', effect: 'hover:animate-spin-slow' },
+    { name: 'GLITCH', effect: 'hover:animate-glitch-fast' },
   ];
 
   return (
@@ -22,7 +22,7 @@ export default function GlitchEffects() {
         <h2 className="text-7xl font-black text-white text-center mb-4 animate-glitch-fast">
           GLITCH & DISTORTION
         </h2>
-        <p className="text-center text-gray-400 text-xl mb-16 animate-flicker">
+        <p className="text-center text-gray-400 text-xl mb-16 animate-flicker capitalize">
           Hover over cards to trigger visual chaos
         </p>
 
@@ -45,16 +45,6 @@ export default function GlitchEffects() {
           ))}
         </div>
 
-        <div className="mt-20 text-center">
-          <img
-            src="https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=600"
-            alt="Glitched"
-            className="mx-auto w-64 h-64 object-cover border-8 border-red-500 animate-glitch-image"
-          />
-          <p className="mt-4 text-white text-xl font-bold animate-flicker">
-            Perfectly distorted image ✨
-          </p>
-        </div>
       </div>
     </section>
   );

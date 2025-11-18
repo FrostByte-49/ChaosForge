@@ -19,7 +19,7 @@ import BlueScreenOfChaos from './components/BlueScreenOfChaos';
 import FracturedReality from './components/FracturedReality';
 
 function App() {
-  const [clickCount, setClickCount] = useState(0);
+  const [_clickCount, setClickCount] = useState(0);
   const [showBSOC, setShowBSOC] = useState(false);
 
   useEffect(() => {

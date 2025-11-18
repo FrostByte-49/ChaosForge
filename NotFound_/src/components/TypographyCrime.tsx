@@ -38,7 +38,7 @@ export default function TypographyCrime() {
             <p className="text-sm inline-block ml-2 opacity-50">help</p>
           </div>
 
-          {/* Fixed marquee with CSS animation */}
+          {/* Marquee Animation */}
           <div className="overflow-hidden bg-black py-4 transform -rotate-2">
             <div className="animate-marquee whitespace-nowrap text-3xl font-bold text-white">
               ⚠️ SCROLLING TEXT IS BACK BABY ⚠️ EMBRACE THE CHAOS ⚠️ CSS IS CRYING ⚠️

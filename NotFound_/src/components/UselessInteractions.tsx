@@ -77,7 +77,7 @@ export default function UselessInteractions() {
               onChange={(e) => setSliderValue(Number(e.target.value))}
               className="w-full"
             />
-            <p className="mt-2 text-gray-600 text-sm italic">
+            <p className="mt-2 text-gray-600 text-sm italic capitalize">
               Value: {sliderValue} (This does absolutely nothing)
             </p>
           </div>
@@ -91,9 +91,9 @@ export default function UselessInteractions() {
                 onChange={() => setIsChecked(true)}
                 className="w-8 h-8"
               />
-              <span className="text-lg font-bold">Try to check me</span>
+              <span className="text-lg font-bold capitalize">Try to check me</span>
             </label>
-            <p className="mt-2 text-gray-600 text-sm italic">I uncheck myself. Deal with it.</p>
+            <p className="mt-2 text-gray-600 text-sm italic capitalize">I uncheck myself. Deal with it.</p>
           </div>
 
           <div className="bg-white/90 p-8 rounded-none border-8 border-black transform hover:-rotate-1 transition-all">
@@ -105,7 +105,7 @@ export default function UselessInteractions() {
               className="w-full p-3 border-4 border-purple-600 text-lg font-mono"
               placeholder="I type on my own..."
             />
-            <p className="mt-2 text-gray-600 text-sm italic">I have my own thoughts</p>
+            <p className="mt-2 text-gray-600 text-sm italic capitalize">I have my own thoughts</p>
           </div>
 
           <div className="bg-white/90 p-8 rounded-none border-8 border-black transform hover:rotate-3 transition-all md:col-span-2">
@@ -121,7 +121,7 @@ export default function UselessInteractions() {
                 <span className="text-white font-bold text-sm">{progress}%</span>
               </div>
             </div>
-            <p className="mt-2 text-gray-600 text-sm italic">
+            <p className="mt-2 text-gray-600 text-sm italic capitalize">
               Forever stuck at 99%. Just like your life goals.
             </p>
           </div>

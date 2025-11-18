@@ -84,7 +84,7 @@ export default function ChaoticHero() {
             <AlertTriangle className="w-12 h-12 text-yellow-300 animate-bounce" />
           </div>
           <p className="text-2xl text-white/90 italic animate-pulse capitalize">
-            Where creativity dies and chaos wins.
+            Where creativity dies & chaos wins...
           </p>
         </div>
 
