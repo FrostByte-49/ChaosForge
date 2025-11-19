@@ -75,7 +75,7 @@ export default function AbsoluteNonsense() {
         </div>
 
         <div className="text-center mt-12">
-          <p className="text-3xl font-black text-transparent bg-gradient-to-r from-red-600 via-yellow-600 via-green-600 via-blue-600 via-purple-600 to-red-600 bg-clip-text animate-pulse inline-block">
+          <p className="text-3xl font-black mt-16 text-transparent bg-gradient-to-r from-red-600 via-yellow-600 via-green-600 via-blue-600 via-purple-600 to-red-600 bg-clip-text animate-pulse inline-block">
             SYMMETRY IS FOR PEOPLE WITH JOBS
           </p>
         </div>

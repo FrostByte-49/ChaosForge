@@ -52,7 +52,7 @@ export default function InteractiveHell() {
           <h2 className="text-7xl font-black text-white drop-shadow-2xl animate-shake mb-4">
             {text('INTERACTIVE HELL')}
           </h2>
-          <p className="text-2xl font-bold text-white/90">
+          <p className="text-2xl font-bold text-white/90 capitalize">
             {text('Click buttons. Chaos ensues. (This is INTENTIONAL)')}
           </p>
         </div>

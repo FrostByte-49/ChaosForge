@@ -58,7 +58,7 @@ export default function BrokenFooter() {
             Made with 💔 & zero design principles
           </p>
           <p className="text-3xl pt-12 font-black text-white transform -rotate-3 inline-block animate-wiggle capitalize">
-            If this website hurt your eyes, mission accomplished.
+            If this website hurt your eyes, mission accomplished...
           </p>
         </div>
 
