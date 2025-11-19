@@ -60,27 +60,27 @@ Includes Masterpieces Like:
 
 | **Chaotic Hero**                                    | **Broken Footer**                                    |
 | --------------------------------------------------- | ---------------------------------------------------- |
-| ![Chaotic Hero](public/assets/preview/Image_1.webp) | ![Broken Footer](public/assets/preview/Image_2.webp) |
+| ![Chaotic Hero](NotFound_/public/assets/preview/Image_1.webp) | ![Broken Footer](NotFound_/public/assets/preview/Image_2.webp) |
 
 | **Typography Crime**                                    | **Layout Disaster**                                    |
 | ------------------------------------------------------- | ------------------------------------------------------ |
-| ![Typography Crime](public/assets/preview/Image_3.webp) | ![Layout Disaster](public/assets/preview/Image_4.webp) |
+| ![Typography Crime](NotFound_/public/assets/preview/Image_3.webp) | ![Layout Disaster](NotFound_/public/assets/preview/Image_4.webp) |
 
 | **Useless Interactions**                                    | **Absolute Nonsense Zone**                               |
 | ----------------------------------------------------------- | -------------------------------------------------------- |
-| ![Useless Interactions](public/assets/preview/Image_5.webp) | ![Absolute Nonsense](public/assets/preview/Image_6.webp) |
+| ![Useless Interactions](NotFound_/public/assets/preview/Image_5.webp) | ![Absolute Nonsense](NotFound_/public/assets/preview/Image_6.webp) |
 
 | **Error**                              | **Interactive Hell**                                    |
 | --------------------------------------------------- | ------------------------------------------------------- |
-| ![Error](public/assets/preview/Image_7.webp) | ![Interactive Hell](public/assets/preview/Image_8.webp) |
+| ![Error](NotFound_/public/assets/preview/Image_7.webp) | ![Interactive Hell](NotFound_/public/assets/preview/Image_8.webp) |
 
 | **AI is Spiraling**                                 | **Death By Aesthetic**                                     |
 | --------------------------------------------------- | ---------------------------------------------------------- |
-| ![AI Spiraling](public/assets/preview/Image_9.webp) | ![Death by Aesthetic](public/assets/preview/Image_10.webp) |
+| ![AI Spiraling](NotFound_/public/assets/preview/Image_9.webp) | ![Death by Aesthetic](NotFound_/public/assets/preview/Image_10.webp) |
 
 | **Buggy Matrix**                                     | **Feedback Form**                                     |
 | ---------------------------------------------------- | ----------------------------------------------------- |
-| ![Buggy Matrix](public/assets/preview/Image_11.webp) | ![Feedback Form](public/assets/preview/Image_12.webp) |
+| ![Buggy Matrix](NotFound_/public/assets/preview/Image_11.webp) | ![Feedback Form](NotFound_/public/assets/preview/Image_12.webp) |
 
 
 
