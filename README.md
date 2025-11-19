@@ -70,9 +70,9 @@ Includes Masterpieces Like:
 | ----------------------------------------------------------- | -------------------------------------------------------- |
 | ![Useless Interactions](public/assets/preview/Image_5.webp) | ![Absolute Nonsense](public/assets/preview/Image_6.webp) |
 
-| **Total Chaos Engine**                              | **Interactive Hell**                                    |
+| **Error**                              | **Interactive Hell**                                    |
 | --------------------------------------------------- | ------------------------------------------------------- |
-| ![Chaos Engine](public/assets/preview/Image_7.webp) | ![Interactive Hell](public/assets/preview/Image_8.webp) |
+| ![Error](public/assets/preview/Image_7.webp) | ![Interactive Hell](public/assets/preview/Image_8.webp) |
 
 | **AI is Spiraling**                                 | **Death By Aesthetic**                                     |
 | --------------------------------------------------- | ---------------------------------------------------------- |
