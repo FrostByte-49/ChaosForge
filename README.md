@@ -89,51 +89,56 @@ Includes Masterpieces Like:
 ## 📁 Project Structure
 
 ```bash
-Design_Not_Found/
-├── 📁NotFound_
-│   ├── 📁src
-│   │     ├── 📁components
-│   │     │    ├── AbsoluteNonsense.tsx          # Pure Chaotic Elements
-│   │     │    ├── BlueScreenOfChaos.tsx         # Fake System Crashes
-│   │     │    ├── BrokenFooter.tsx              # Non-Functional Footer
-│   │     │    ├── BrokenNav.tsx                 # Confusing Navigation
-│   │     │    ├── BuggyMatrix.tsx               # Animated Bug Patterns
-│   │     │    ├── ChaosEngine.tsx               # Core Chaos Generator
-│   │     │    ├── ChaoticHero.tsx               # Messy Hero Section
-│   │     │    ├── CursorEffect.tsx              # Crazy Cursor Trails
-│   │     │    ├── DeathByAesthetic.tsx          # Visual Overload
-│   │     │    ├── ErrorPopups.tsx               # Annoying Popups
-│   │     │    ├── FeedbackForm.tsx              # Worst Form Ever
-│   │     │    ├── FracturedReality.tsx          # Broken Layouts
-│   │     │    ├── GlitchEffects.tsx             # Visual Distortions
-│   │     │    ├── InteractiveHell.tsx           # Frustrating UI
-│   │     │    ├── LayoutDisaster.tsx            # Layout Chaos
-│   │     │    ├── Spiraling.tsx                 # Spinning Madness
-│   │     │    ├── TextCorruption.tsx            # Unreadable Text
-│   │     │    ├── TypographyCrime.tsx           # Font Nightmares
-│   │     │    └── UselessInteractions.tsx       # Pointless Features
-│   │     │
-│   │     ├── App.tsx                            # Main Application
-│   │     ├── index.css                          # Global Styles
-│   │     ├── main.tsx                           # Application Entry
-│   │     └── vite-env.d.ts                      # TypeScript Definitions
-│   │
-│   ├── .env                                     # Environment Variables
-│   ├── .gitignore                               # Git Ignore Rules
-│   ├── eslint.config.js                         # ESLint Configuration
-│   ├── index.html                               # HTML Template
-│   ├── package-lock.json                        # Dependency Lock
-│   ├── package.json                             # Project Dependencies
-│   ├── postcss.config.js                        # PostCSS Configuration
-│   ├── tailwind.config.js                       # TailwindCSS Config
-│   ├── tsconfig.app.json                        # TypeScript App Config
-│   ├── tsconfig.json                            # TypeScript Config
-│   ├── tsconfig.node.json                       # TypeScript Node Config
-│   └── vite.config.ts                           # Vite Configuration
-│    
-├── .gitattributes                               # Git Attributes
-├── README.md                                    # Project Documentation
-└── LICENSE                                      # MIT License
+📁Design_Not_Found/
+ ├── 📁NotFound_
+ │    ├── 📁public
+ │    │    └── 📁assets                          # Website Assets
+ │    │         ├── 📁images                     # Favicon
+ │    │         └── 📁preview                    # Website Preview
+ │    │
+ │    ├── 📁src
+ │    │    ├── 📁components
+ │    │    │    ├── AbsoluteNonsense.tsx          # Pure Chaotic Elements
+ │    │    │    ├── BlueScreenOfChaos.tsx         # Fake System Crashes
+ │    │    │    ├── BrokenFooter.tsx              # Non-Functional Footer
+ │    │    │    ├── BrokenNav.tsx                 # Confusing Navigation
+ │    │    │    ├── BuggyMatrix.tsx               # Animated Bug Patterns
+ │    │    │    ├── ChaosEngine.tsx               # Core Chaos Generator
+ │    │    │    ├── ChaoticHero.tsx               # Messy Hero Section
+ │    │    │    ├── CursorEffect.tsx              # Crazy Cursor Trails
+ │    │    │    ├── DeathByAesthetic.tsx          # Visual Overload
+ │    │    │    ├── ErrorPopups.tsx               # Annoying Popups
+ │    │    │    ├── FeedbackForm.tsx              # Worst Form Ever
+ │    │    │    ├── FracturedReality.tsx          # Broken Layouts
+ │    │    │    ├── GlitchEffects.tsx             # Visual Distortions
+ │    │    │    ├── InteractiveHell.tsx           # Frustrating UI
+ │    │    │    ├── LayoutDisaster.tsx            # Layout Chaos
+ │    │    │    ├── Spiraling.tsx                 # Spinning Madness
+ │    │    │    ├── TextCorruption.tsx            # Unreadable Text
+ │    │    │    ├── TypographyCrime.tsx           # Font Nightmares
+ │    │    │    └── UselessInteractions.tsx       # Pointless Features
+ │    │    │
+ │    │    ├── App.tsx                            # Main Application
+ │    │    ├── index.css                          # Global Styles
+ │    │    ├── main.tsx                           # Application Entry
+ │    │    └── vite-env.d.ts                      # TypeScript Definitions
+ │    │
+ │    ├── .env                                     # Environment Variables
+ │    ├── .gitignore                               # Git Ignore Rules
+ │    ├── eslint.config.js                         # ESLint Configuration
+ │    ├── index.html                               # HTML Template
+ │    ├── package-lock.json                        # Dependency Lock
+ │    ├── package.json                             # Project Dependencies
+ │    ├── postcss.config.js                        # PostCSS Configuration
+ │    ├── tailwind.config.js                       # TailwindCSS Config
+ │    ├── tsconfig.app.json                        # TypeScript App Config
+ │    ├── tsconfig.json                            # TypeScript Config
+ │    ├── tsconfig.node.json                       # TypeScript Node Config
+ │    └── vite.config.ts                           # Vite Configuration
+ │    
+ ├── .gitattributes                               # Git Attributes
+ ├── README.md                                    # Project Documentation
+ └── LICENSE                                      # MIT License
 ```
 
 <br>
