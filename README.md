@@ -1,6 +1,6 @@
-# 🎪 CHAOS [ 404: Design Not Found ]
+# 🎪 ChaosForge [ 404: Design Not Found ]
 
-**CHAOS ( 404: Design Not Found )** is a beautifully broken tribute to everything *wrong* in web design. A digital circus where UI laws are shattered, UX logic is ignored, and every component behaves like it has a mind of its own. This project embraces the absurd, the glitchy, the misaligned, and the visually painful, turning them into an intentional aesthetic. It's not just a project… it's an experience. A satire-driven playground where every animation is unpredictable, every interaction is questionable, and every pixel challenges your sanity in the most entertaining way possible.
+**ChaosForge ( 404: Design Not Found )** is a beautifully broken tribute to everything *wrong* in web design. A digital circus where UI laws are shattered, UX logic is ignored, and every component behaves like it has a mind of its own. This project embraces the absurd, the glitchy, the misaligned, and the visually painful, turning them into an intentional aesthetic. It's not just a project… it's an experience. A satire-driven playground where every animation is unpredictable, every interaction is questionable, and every pixel challenges your sanity in the most entertaining way possible.
 
 Crafted using **React**, **TypeScript**, and **TailwindCSS**, this chaotic experiment pushes the boundaries of bad design to reveal the hidden beauty in disorder. Whether you're here to laugh at UI disasters, study what *not* to do in real-world projects, or simply enjoy a harmless dose of front-end anarchy, this project stands as a comedic, educational, and oddly inspiring take on the world of web aesthetics gone rogue. Welcome to the art of intentional design failure where chaos isn’t a bug… it’s the main feature.
 
@@ -89,7 +89,7 @@ Includes Masterpieces Like:
 ## 📁 Project Structure
 
 ```bash
-📁Design_Not_Found/
+📁ChaosForge/
  ├── 📁NotFound_
  │    ├── 📁public
  │    │    └── 📁assets                          # Website Assets
@@ -164,8 +164,8 @@ To Experience The Chaos Locally:
 1. **Clone The Repository**
 
 ```bash
-git clone https://github.com/your-username/Design_Not_Found.git
-cd Design_Not_Found/NotFound_
+git clone https://github.com/FrostByte-49/ChaosForge.git
+cd ChaosForge/NotFound_
 ```
 
 ---
@@ -283,8 +283,8 @@ We Welcome Contributions That Make This Project Even More Chaotic...
 
 ```bash
 # 1. Fork The Repository 🍴
-  git clone https://github.com/FrostByte-49/Design_Not_Found.git
-  cd Design_Not_Found/NotFound_
+  git clone https://github.com/FrostByte-49/ChaosForge.git
+  cd ChaosForge/NotFound_
 
 # 2. Create Your Chaos Branch 🌪️
   git checkout -b feature/more-madness
