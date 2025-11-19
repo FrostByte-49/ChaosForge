@@ -11,8 +11,8 @@ export default function BrokenNav() {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-sm border-b-4 border-pink-500">
-      <div className="container mx-auto px-4 py-4">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-black border-b-4 border-pink-500">
+      <div className="container mx-auto px-8 py-6">
         <div className="flex items-center justify-between">
           <div className="text-3xl font-black text-white transform -rotate-3 animate-bounce-slow">
             CHAOS™
